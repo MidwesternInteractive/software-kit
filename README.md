@@ -25,6 +25,11 @@ __*Note*__ to change `/projects/` to your project directory if different.
 
 Use the name of the repository as the project name (replacing spaces and special characters), keep in mind that if your using `valet park` instead of `valet link` the project name will become a directory and default your local domain to "project-name.dev".
 
+## Repository / Version Control
+Set up your version control for your project
+
+---
+
 ## Require composer dependencies
 ```shell
 $ cd project-name
