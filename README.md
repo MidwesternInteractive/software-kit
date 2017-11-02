@@ -1,7 +1,7 @@
 ## Local Environment
 If you haven't already, make sure you have your local environment setup.
 
-[Local Environment Setup](https://gist.github.com/MidwesternInteractive/1f59de79ea114403fb16a072ff03d9de)
+[Local Environment Setup](https://github.com/MidwesternInteractive/local-environment)
 
 # Set Up
 __*Note*__ `$` represents a terminal command and should not be typed out.
@@ -9,6 +9,11 @@ __*Note*__ `$` represents a terminal command and should not be typed out.
 All commands (unless otherwise specified) should be ran from home dir:
 ```shell
 $ cd
+```
+
+## Laravel Installer
+```shell
+$ composer global require laravel/installer
 ```
 
 ## Install Laravel Project
