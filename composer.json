@@ -1,0 +1,25 @@
+{
+    "name": "midwesterninteractive/software-starter",
+    "description": "MWI Starter Kit for Software Projects",
+    "keywords": ["starter", "laravel"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "laravelcollective/html": "^5.5",
+        "doctrine/dbal": "^2.6",
+        "bugsnag/bugsnag-laravel": "^2.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.*"
+    },
+    "scripts": {
+        "post-direcotory-creation": [
+            "@mkdir 'app/Traits' 'app/Services' 'app/Requests' 'app/Facades'"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
