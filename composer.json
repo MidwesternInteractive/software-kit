@@ -13,8 +13,8 @@
         "squizlabs/php_codesniffer": "^3.0"
     },
     "scripts": {
-        "post-direcotory-creation": [
-            "@mkdir 'app/Traits' 'app/Services' 'app/Requests' 'app/Facades'"
+        "post-install-cmd": [
+            "mkdir 'app/Traits' 'app/Services' 'app/Requests' 'app/Facades'"
         ]
     },
     "config": {
