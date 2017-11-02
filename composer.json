@@ -13,8 +13,11 @@
         "squizlabs/php_codesniffer": "^3.0"
     },
     "scripts": {
-        "post-install-cmd": [
+        "mwi-create-app-directories": [
             "mkdir 'app/Traits' 'app/Services' 'app/Requests' 'app/Facades'"
+        ],
+        "post-install-cmd": [
+            "@mwi-create-app-directories"
         ]
     },
     "config": {
