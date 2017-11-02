@@ -1,10 +1,10 @@
 ## Local Environment
 If you haven't already, make sure you have your local environment setup.
 
-https://bitbucket.org/snippets/midwesterninteractive/q4zeox/local-environment-setup
+[Local Environment Setup](https://gist.github.com/MidwesternInteractive/1f59de79ea114403fb16a072ff03d9de)
 
 # Set Up
-*Note* `$` represents a terminal command and should not be typed out.
+__*Note*__ `$` represents a terminal command and should not be typed out.
 
 All commands (unless otherwise specified) should be ran from home dir:
 ```shell
@@ -16,7 +16,7 @@ $ cd
 $ cd ~/projects/
 $ laravel new project-name
 ```
-*Note* to change `/projects/` to your project directory if different.
+__*Note*__ to change `/projects/` to your project directory if different.
 
 Use the name of the repository as the project name (replacing spaces and special characters), keep in mind that if your using `valet park` instead of `valet link` the project name will become a directory and default your local domain to "project-name.dev".
 
@@ -28,8 +28,8 @@ $ composer install
 ```
 
 
-## Javascript Packages
-These packages are on an as need basis. Most of the time the themes we incorporate will have these type of things built in. If not these are the packages we use for various features.
+## JavaScript Packages
+These packages are on an as need basis. If a theme was incorporated they may not be necessary.
 
 ---
 
