@@ -11,26 +11,12 @@ All commands (unless otherwise specified) should be ran from home dir:
 $ cd
 ```
 
-## Laravel Installer
-```shell
-$ composer global require laravel/installer
-```
-
-## Install Laravel Project
-```shell
-$ cd ~/projects/
-$ laravel new project-name
-```
-__*Note*__ to change `/projects/` to your project directory if different.
-
-Use the name of the repository as the project name (replacing spaces and special characters), keep in mind that if your using `valet park` instead of `valet link` the project name will become a directory and default your local domain to "project-name.dev".
-
 ## Require composer dependencies
 ```shell
-$ cd project-name
-$ composer require midwesterninteractive/software-starter
+$ cd ~/projects/
+$ mkdir new-project && cd new-project
+$ composer require mwi/software-kit
 ```
-
 
 ## JavaScript Packages
 These packages are on an as need basis. If a theme was incorporated they may not be necessary.
