@@ -11,6 +11,11 @@ All commands (unless otherwise specified) should be ran from home dir:
 $ cd
 ```
 
+## Version Control
+Set up the version control for your project
+
+---
+
 ## Require composer dependencies
 ```shell
 $ cd ~/projects/
